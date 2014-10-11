@@ -19,6 +19,7 @@ namespace workCounter
             _startTime = startTime;
             _endTime = endTime;
             _message = message;
+            _message = _message.Replace('\'', ' ');
         }
         string databaseCommandString()
         {

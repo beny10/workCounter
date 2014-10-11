@@ -8,3 +8,13 @@ D:\Beni\Beni\job\workCounter\workCounter\obj\Debug\workCounter.pdb
 D:\Beni\Beni\job\workCounter\workCounter\obj\Debug\workCounter.mainForm.resources
 D:\Beni\Beni\job\workCounter\workCounter\obj\Debug\workCounter.csprojResolveAssemblyReference.cache
 D:\Beni\Beni\job\workCounter\workCounter\obj\Debug\workCounter.reportForm.resources
+D:\Beni\Beni\job\workCounter\workCounter2\workCounter\bin\Debug\workCounter.exe.config
+D:\Beni\Beni\job\workCounter\workCounter2\workCounter\obj\Debug\workCounter.exe
+D:\Beni\Beni\job\workCounter\workCounter2\workCounter\obj\Debug\workCounter.pdb
+D:\Beni\Beni\job\workCounter\workCounter2\workCounter\bin\Debug\workCounter.exe
+D:\Beni\Beni\job\workCounter\workCounter2\workCounter\bin\Debug\workCounter.pdb
+D:\Beni\Beni\job\workCounter\workCounter2\workCounter\obj\Debug\workCounter.csprojResolveAssemblyReference.cache
+D:\Beni\Beni\job\workCounter\workCounter2\workCounter\obj\Debug\workCounter.mainForm.resources
+D:\Beni\Beni\job\workCounter\workCounter2\workCounter\obj\Debug\workCounter.Properties.Resources.resources
+D:\Beni\Beni\job\workCounter\workCounter2\workCounter\obj\Debug\workCounter.reportForm.resources
+D:\Beni\Beni\job\workCounter\workCounter2\workCounter\obj\Debug\workCounter.csproj.GenerateResource.Cache

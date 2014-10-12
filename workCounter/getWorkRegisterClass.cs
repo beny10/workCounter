@@ -21,11 +21,8 @@ namespace workCounter
         }
         string timeInterval(DateTime b,DateTime a)
         {
-            int hours = a.Hour - b.Hour;
-            int minutes = a.Minute - b.Minute;
-            hours += minutes / 60;
-            minutes %= 60;
-            return String.Format("{0}:{1}", hours.ToString(), minutes.ToString());
+            timeIntervalClass timeIntervalClass = new timeIntervalClass(b, a);
+            return timeIntervalClass.intervalAsString();
         }
         public List<List<string>> get()
         {

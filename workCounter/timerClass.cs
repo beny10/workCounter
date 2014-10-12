@@ -27,9 +27,8 @@ namespace workCounter
         }
         void intervalElapsed()
         {
-            int hours = DateTime.Now.Hour - _startTime.Hour;
-            int minutes = DateTime.Now.Minute - _startTime.Minute;
-            _mainForm.labelTimeElapsed.Text=(String.Format("{0}:{1}", hours, minutes));
+            timeIntervalClass timeIntervalClass = new workCounter.timeIntervalClass(_startTime, DateTime.Now);
+            _mainForm.labelTimeElapsed.Text = timeIntervalClass.intervalAsString();
         }
         public void start()
         {

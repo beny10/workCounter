@@ -64,6 +64,7 @@
     <Compile Include="reportForm.Designer.cs">
       <DependentUpon>reportForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="timeIntervalClass.cs" />
     <Compile Include="timerClass.cs" />
     <EmbeddedResource Include="mainForm.resx">
       <DependentUpon>mainForm.cs</DependentUpon>

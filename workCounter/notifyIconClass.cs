@@ -21,6 +21,7 @@ namespace workCounter
         void _notifyIcon_DoubleClick(object sender, EventArgs e)
         {
             _mainForm.Show();
+            _mainForm.WindowState = FormWindowState.Normal;
         }
         public void show()
         {

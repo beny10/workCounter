@@ -65,5 +65,12 @@ namespace workCounter
             insertDataInDatabase(_reportForm.message);
             
         }
+        public void formSizeChanged()
+        {
+            if(_mainForm.WindowState==System.Windows.Forms.FormWindowState.Minimized)
+            {
+                _mainForm.Hide();
+            }
+        }
     }
 }

@@ -59,5 +59,10 @@ namespace workCounter
             _formControllerClass.stop();
             loadRegisters();
         }
+
+        private void mainForm_Resize(object sender, EventArgs e)
+        {
+            _formControllerClass.formSizeChanged();
+        }
     }
 }

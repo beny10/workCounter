@@ -23,7 +23,7 @@ namespace workCounter
         }
         string databaseCommandString()
         {
-            return String.Format("insert into workRegister(startDate,endDate,message) values('{0}','{1}','{2}')", _startTime.ToString(), _endTime.ToString(),_message);
+            return String.Format("insert into workRegister(startDate,endDate,message) values('{0}','{1}','{2}')", _startTime.ToString("MM/dd/yy HH:mm:ss"), _endTime.ToString("MM/dd/yy HH:mm:ss"), _message);
         }
         public void insert()
         {
@@ -32,9 +32,9 @@ namespace workCounter
                 SqlCommand command = new SqlCommand(databaseCommandString(), _databaseConnectionClass.openConnection());
                 command.ExecuteNonQuery();
             }
-            catch
+            catch(Exception er)
             {
-                MessageBox.Show("The inserting cannot be done!");
+                MessageBox.Show("The inserting cannot be done!"+er.Message);
             }
 
         }
